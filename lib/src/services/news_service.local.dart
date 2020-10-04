@@ -5,7 +5,7 @@ import 'package:noticias_app/src/models/news_models.dart';
 import 'package:http/http.dart' as http;
 
 final _URL_NEWS = 'https://newsapi.org/v2';
-final _TOKEN = '';
+final _TOKEN = ' ';
 
 class NewsService with ChangeNotifier {
   List<Article> headLines = [];
